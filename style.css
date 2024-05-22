@@ -1,0 +1,26 @@
+.Head {
+    color: rgb(104, 104, 104);
+    outline-color: blue;
+    font-family:'Times New Roman', Times, serif ;
+    text-size-adjust: 50px;
+    align-self: center;
+}
+.background1 {
+    background-color: rgb(202, 202, 202);
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.background2 {
+    background-color: rgb(163, 163, 163);
+    height: 75%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+}
+.Contactoffset {
+    margin-bottom: 95%;
+}
