@@ -1,31 +1,57 @@
+h1 {
+    font-family:'Montserrat', Times, serif ;
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    font-family:'Lato', Times, serif ;
+    font-size: 1.5rem;
+    color:#f7f7f7;
+}
+
 .Head {
     color: rgb(255, 255, 255);
     outline-color: blue;
     font-family:'Tahoma', Times, serif ;
-    text-size-adjust: 50px;
+    /*text-size-adjust: 50px;*/
     align-self: center;
 }
 .background1 {
-    background: rgb(9,9,121);
-    background: linear-gradient(120deg, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: #1788e5;
+    background: linear-gradient(120deg, #1788e5 , #c624ff );
    /* height: 25%;*/
    /* position: absolute;*/
-    top: 0;
-    left: 0;
+    text-align:center;
+    padding:  200px 0 200px 0;
+    /*top: 0;*/
+    /*left: 0;*/
     width: 100%;
 }
 .background2 {
     background: rgb(0, 0, 7);
-    background: linear-gradient(120deg, rgb(0, 0, 0) 35%, rgb(16, 39, 143) 100%);
+    background: linear-gradient(120deg, #000000 ,#292047);
+    padding:  125px 0 125px 0;
+    text-align:center;
     /*height: 75%;*/
     /* position: absolute;*/
     /*top: 25%;*/
-    left: 0;
+    /*left: 0;*/
     width: 100%;
 }
-.Contactoffset {
+
+.info-block {
+    padding:55px;
+    border-radius:12px;
+    background-color: #ffffff63; 
+    width:20%; 
+    margin: 35px 13px 125px 13px;
+    display: inline-block;
+}
+/*.Contactoffset {
     margin-bottom: 95%;
 }
+*/
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -89,9 +115,77 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
-.montserrat-<uniquifier> {
+.montserrat-font {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
+/** Form Styling **/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width:700px;
+    min-width: 700px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #222;
+    margin-left:auto;
+    margin-right:auto;
+}
+form#form {
+    background-color: none;
+    width: 100%;
+    min-height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.column {
+    width: 48%;
+}
+.field {
+    margin: 10px 0px;
+}
+input {
+    position: relative;
+    background-color: rgb(255 255 255 / 40%);
+    padding: 18px;
+    margin-top: 25px;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 0px;
+    outline: 0;
+    border-radius: 12px;
+}
+.username label::after ,
+.password label::after ,
+.email label::after {
+    content: "*";
+    position: absolute;
+    color: red;
+    margin-left: 5px;
+    font-size: 16px;
+}
+input::placeholder {
+    color: #ffffff;
+}
+input.send {
+    background: rgb(0, 0, 7);
+    background: linear-gradient(120deg, #000000 ,#292047);
+    color: white;
+    border: 0px;
+    border-radius: 12px;
+    padding: 18px;
+    font-size: 16px;
+}
+
