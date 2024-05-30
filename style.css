@@ -1,26 +1,52 @@
 .Head {
-    color: rgb(104, 104, 104);
-    outline-color: blue;
-    font-family:'Tahoma', Times, serif ;
-    text-size-adjust: 50px;
-    align-self: center;
+    color: rgb(255, 255, 255);
+    outline-color: rgb(2, 2, 255);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 .background1 {
-    background-color: rgb(202, 202, 202);
-    height: 25%;
+    background-image: linear-gradient(to right, #1788e5, #c624ff);
+    height: 35%;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 .background2 {
-    background-color: rgb(163, 163, 163);
-    height: 75%;
+    background-image: linear-gradient(to right, Black, #292047);
+    height: 100%;
     position: absolute;
     top: 25%;
     left: 0;
     width: 100%;
 }
 .Contactoffset {
-    margin-bottom: 95%;
+    background-image: linear-gradient(to right, #1788e5, #c624ff);
+    height: 37%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+}
+.RestText {
+    color: rgb(139, 139, 139);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#form {
+    background-color: none;
+    width: 100%;
+    min-height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.column {
+    width: 48%;
 }
