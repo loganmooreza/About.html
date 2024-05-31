@@ -1,52 +1,146 @@
+h1 {
+    font-family:'Montserrat', Times, serif ;
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    font-family:'Lato', Times, serif ;
+    font-size: 1.5rem;
+    color:#f7f7f7;
+}
+
 .Head {
     color: rgb(255, 255, 255);
-    outline-color: rgb(2, 2, 255);
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    outline-color: blue;
+    font-family:'Tahoma', Times, serif ;
+    align-self: center;
 }
 .background1 {
-    background-image: linear-gradient(to right, #1788e5, #c624ff);
-    height: 35%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background: #1788e5;
+    background: linear-gradient(120deg, #1788e5 , #c624ff );
+    text-align:center;
+    padding:  200px 0 200px 0;
     width: 100%;
 }
 .background2 {
-    background-image: linear-gradient(to right, Black, #292047);
-    height: 100%;
-    position: absolute;
-    top: 25%;
-    left: 0;
+    background: rgb(0, 0, 7);
+    background: linear-gradient(120deg, #000000 ,#292047);
+    height: 140;
+    text-align:center;
     width: 100%;
 }
-.Contactoffset {
-    background-image: linear-gradient(to right, #1788e5, #c624ff);
-    height: 37%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
 
+.info-block {
+    padding:55px;
+    border-radius:12px;
+    background-color: #ffffff63;
+    width:20%;
+    margin: 35px 13px 125px 13px;
+    display: inline-block;
 }
-.RestText {
-    color: rgb(139, 139, 139);
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
-#form {
-    background-color: none;
-    width: 100%;
-    min-height: 100%;
-    padding: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+form#form {
+  background-color: none;
+  width: 100%;
+  min-height: 100%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .column {
-    width: 48%;
+  width: 48%;
+}
+input {
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 25px;
+  background-color: #f7f7f78a;
+  color:#f7f7f7;
+  border: none;
+  outline: 0;
+  position: relative;
+  width: 100%;
+}
+.field {
+  margin: 10px 15px;
+}
+input.send {
+  background: linear-gradient(120deg, #000000 ,#292047);
+  background-color:#000000;
+}
+input::placeholder {
+  color:white;
 }
