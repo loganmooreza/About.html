@@ -173,3 +173,6 @@ input::placeholder {
   display: inline-block;
   text-align: left;
 }
+li {
+ list-style-image: url(align-left-500.svg);
+}
